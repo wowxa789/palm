@@ -25,7 +25,7 @@ function addToCart(id, name, price) {
     }
     saveCart();
     updateCartCount();
-    alert(`${name} ถูกเพิ่มในตะกร้าแล้ว!`);
+    
 }
 
 // อัปเดตจำนวนสินค้าที่อยู่ในตะกร้าในเมนู
