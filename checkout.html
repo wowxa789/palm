@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ชำระเงิน</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Shirt Shop</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="about.html">เกี่ยวกับเรา</a></li>
+                <li><a href="products.html">สินค้า</a></li>
+                <li><a href="contact.html">ติดต่อเรา</a></li>
+            </ul>
+        </nav>
+        <div class="cart-button">
+            <a href="cart.html">ตะกร้า (0)</a>
+        </div>
+    </header>
+
+    <section class="checkout-info">
+        <h1>ชำระเงิน</h1>
+        <form id="checkout-form">
+            <h2>ข้อมูลลูกค้า</h2>
+            <label for="name">ชื่อ:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">อีเมล:</label>
+            <input type="email" id="email" required>
+
+            <label for="address">ที่อยู่:</label>
+            <textarea id="address" required></textarea>
+
+            <h2>ข้อมูลการชำระเงิน</h2>
+            <label for="card-number">หมายเลขบัตรเครดิต:</label>
+            <input type="text" id="card-number" required>
+
+            <label for="expiry-date">วันหมดอายุ:</label>
+            <input type="text" id="expiry-date" placeholder="MM/YY" required>
+
+            <label for="cvc">CVC:</label>
+            <input type="text" id="cvc" required>
+
+            <button type="submit" class="checkout-button">ยืนยันการชำระเงิน</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <h2>ติดตามเรา</h2>
+            <p>เชื่อมต่อกับเราผ่านช่องทางโซเชียลมีเดีย</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 เสื้อผ้าของเรา. สงวนลิขสิทธิ์.</p>
+        </div>
+    </footer>
+</body>
+</html>
