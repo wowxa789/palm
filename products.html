@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shirt Shop</title>
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Shirt Shop</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="about.html">เกี่ยวกับเรา</a></li>
+                <li><a href="products.html">สินค้า</a></li>
+                <li><a href="contact.html">ติดต่อเรา</a></li>
+            </ul>
+        </nav>
+        <div class="cart-button">
+            <a href="cart.html">ตะกร้า (0)</a>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>ยินดีต้อนรับสู่ร้านเสื้อของเรา</h1>
+            <p>ค้นพบเสื้อผ้าคุณภาพสูงที่ออกแบบมาเพื่อคุณ</p>
+            <a href="#" class="shop-now-button">ช้อปเลย</a>
+        </div>
+    </section>
+    <section class="filter-sort">
+        <div class="filter-sort-content">
+            <h2>กรองสินค้า</h2>
+            <div class="filter-options">
+                <label for="category">หมวดหมู่:</label>
+                <select id="category">
+                    <option value="all">ทั้งหมด</option>
+                    <option value="t-shirts">เสื้อยืด</option>
+                    <option value="hoodies">เสื้อฮู้ด</option>
+                    <option value="accessories">อุปกรณ์เสริม</option>
+                </select>
+
+                <label for="sort">เรียงตาม:</label>
+                <select id="sort">
+                    <option value="popular">ยอดนิยม</option>
+                    <option value="newest">สินค้าใหม่</option>
+                    <option value="price-low">ราคา: ต่ำไปสูง</option>
+                    <option value="price-high">ราคา: สูงไปต่ำ</option>
+                </select>
+            </div>
+        </div>
+    </section>
+    <section class="product-grid">
+        <h2>สินค้า</h2>
+        <div class="grid-container">
+                    <div class="product-card">
+                        <img src="shirt1.jpg" alt="Shirt 1">
+                        <h3>เสื้อยืดลายแรก</h3>
+                        <p class="price">฿500</p>
+                        <button class="add-to-cart" data-id="1" data-name="เสื้อยืดลายแรก" data-price="500">เพิ่มในตะกร้า</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="shirt2.jpg" alt="Shirt 2">
+                        <h3>เสื้อยืดลายที่สอง</h3>
+                        <p class="price">฿600</p>
+                        <button class="add-to-cart" data-id="2" data-name="เสื้อยืดลายที่สอง" data-price="600">เพิ่มในตะกร้า</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="shirt3.jpg" alt="Shirt 3">
+                        <h3>เสื้อฮู้ดลายใหม่</h3>
+                        <p class="price">฿800</p>
+                        <button class="add-to-cart" data-id="3" data-name="เสื้อฮู้ดลายใหม่" data-price="800">เพิ่มในตะกร้า</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="shirt4.jpg" alt="Shirt 4">
+                        <h3>เสื้อแขนยาวลายดอกไม้</h3>
+                        <p class="price">฿750</p>
+                        <button class="add-to-cart" data-id="4" data-name="เสื้อแขนยาวลายดอกไม้" data-price="750">เพิ่มในตะกร้า</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="shirt5.jpg" alt="Shirt 5">
+                        <h3>เสื้อยืดลายขวาง</h3>
+                        <p class="price">฿550</p>
+                        <button class="add-to-cart" data-id="5" data-name="เสื้อยืดลายขวาง" data-price="550">เพิ่มในตะกร้า</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="shirt6.jpg" alt="Shirt 6">
+                        <h3>เสื้อโปโลสีเรียบ</h3>
+                        <p class="price">฿700</p>
+                        <button class="add-to-cart" data-id="6" data-name="เสื้อโปโลสีเรียบ" data-price="700">เพิ่มในตะกร้า</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="shirt7.jpg" alt="Shirt 7">
+                        <h3>เสื้อยืดลายการ์ตูน</h3>
+                        <p class="price">฿480</p>
+                        <button class="add-to-cart" data-id="7" data-name="เสื้อยืดลายการ์ตูน" data-price="480">เพิ่มในตะกร้า</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="shirt8.jpg" alt="Shirt 8">
+                        <h3>เสื้อฮู้ดลายสีสด</h3>
+                        <p class="price">฿850</p>
+                        <button class="add-to-cart" data-id="8" data-name="เสื้อฮู้ดลายสีสด" data-price="850">เพิ่มในตะกร้า</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="shirt9.jpg" alt="Shirt 9">
+                        <h3>เสื้อยืดลายเรียบ</h3>
+                        <p class="price">฿450</p>
+                        <button class="add-to-cart" data-id="9" data-name="เสื้อยืดลายเรียบ" data-price="450">เพิ่มในตะกร้า</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="shirt10.jpg" alt="Shirt 10">
+                        <h3>เสื้อเชิ้ตลายสก็อต</h3>
+                        <p class="price">฿600</p>
+                        <button class="add-to-cart" data-id="10" data-name="เสื้อเชิ้ตลายสก็อต" data-price="600">เพิ่มในตะกร้า</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="shirt11.jpg" alt="Shirt 11">
+                        <h3>เสื้อยืดคอกลมสีพื้น</h3>
+                        <p class="price">฿480</p>
+                        <button class="add-to-cart" data-id="11" data-name="เสื้อยืดคอกลมสีพื้น" data-price="480">เพิ่มในตะกร้า</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="shirt12.jpg" alt="Shirt 12">
+                        <h3>เสื้อยืดลายสไตล์วินเทจ</h3>
+                        <p class="price">฿520</p>
+                        <button class="add-to-cart" data-id="12" data-name="เสื้อยืดลายสไตล์วินเทจ" data-price="520">เพิ่มในตะกร้า</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="customer-reviews">
+        <h2>รีวิวจากลูกค้า</h2>
+        <div class="reviews-container">
+            <div class="review-card">
+                <h3>ลูกค้า 1</h3>
+                <p>"เสื้อผ้าคุณภาพดีมาก ใส่สบายและราคาย่อมเยา!"</p>
+                <div class="star-rating">
+                    ★★★★☆
+                </div>
+            </div>
+            <div class="review-card">
+                <h3>ลูกค้า 2</h3>
+                <p>"บริการรวดเร็วและน่าพอใจมาก จะกลับมาซื้ออีกแน่นอน!"</p>
+                <div class="star-rating">
+                    ★★★★★
+                </div>
+            </div>
+            <div class="review-card">
+                <h3>ลูกค้า 3</h3>
+                <p>"ชอบดีไซน์และสีสันของเสื้อมาก สวยงาม!"</p>
+                <div class="star-rating">
+                    ★★★★☆
+                </div>
+            </div>
+            <div class="review-card">
+                <h3>ลูกค้า 4</h3>
+                <p>"สินค้ามาตรงตามที่สั่ง ไม่มีปัญหา!"</p>
+                <div class="star-rating">
+                    ★★★★★
+                </div>
+            </div>
+            <div class="review-card">
+                <h3>ลูกค้า 5</h3>
+                <p>"ราคาสมเหตุสมผลสำหรับคุณภาพที่ได้รับ!"</p>
+                <div class="star-rating">
+                    ★★★★☆
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="call-to-action">
+        <div class="cta-content">
+            <h2>พร้อมที่จะซื้อเสื้อใหม่แล้วหรือยัง?</h2>
+            <p>ค้นพบคอลเลกชันที่น่าตื่นเต้นและเลือกสไตล์ที่เหมาะกับคุณ!</p>
+            <a href="#products" class="cta-button">เริ่มช็อปเลย</a>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <h2>ติดตามเรา</h2>
+            <p>เชื่อมต่อกับเราผ่านโซเชียลมีเดีย</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 เสื้อผ้าของเรา. สงวนสิทธิ์ทุกประการ.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>

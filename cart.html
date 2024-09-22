@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shirt Shop</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Shirt Shop</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="about.html">เกี่ยวกับเรา</a></li>
+                <li><a href="products.html">สินค้า</a></li>
+                <li><a href="contact.html">ติดต่อเรา</a></li>
+            </ul>
+        </nav>
+        <div class="cart-button">
+            <a href="cart.html">ตะกร้า (0)</a>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>ตะกร้าสินค้าของคุณ</h1>
+            <p>ตรวจสอบสินค้าที่คุณเลือกและเตรียมพร้อมสำหรับการชำระเงิน!</p>
+        </div>
+    </section>
+        <section class="cart-items">
+            <h2>รายการสินค้าที่เลือก</h2>
+            <div id="cart-items"></div>
+            <div id="subtotal"></div>
+            <div id="total"></div> 
+        </section>
+ 
+    <section class="subtotal">
+        <h2>ยอดรวม</h2>
+        <div class="subtotal-details">
+            <div class="subtotal-item">
+                <span>Subtotal:</span>
+                <span id="subtotal-amount" class="amount">฿0</span>
+            </div>
+            <div class="subtotal-item">
+                <span>ค่าจัดส่ง:</span>
+                <span id="shipping-amount" class="amount">฿50</span>
+            </div>
+            <div class="subtotal-item total">
+                <span>ยอดรวมทั้งหมด:</span>
+                <span id="total-amount" class="amount">฿0</span>
+            </div>
+        </div>
+        <button class="checkout-button">ชำระเงิน</button>
+    </section>
+    
+    <section class="continue-shopping">
+        <h2>ดำเนินการช็อปปิ้งต่อ</h2>
+        <p>คุณสามารถเลือกสินค้าต่อได้จากลิงก์ด้านล่าง:</p>
+        <a href="products.html" class="continue-button">เลือกสินค้าของเรา</a>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <h2>เกี่ยวกับเรา</h2>
+            <p>ร้านเสื้อของเรามุ่งมั่นที่จะมอบผลิตภัณฑ์ที่มีคุณภาพและการบริการที่ดีที่สุดให้กับลูกค้า</p>
+        </div>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 ร้านเสื้อของเรา | สงวนลิขสิทธิ์</p>
+        </div>
+    </footer>
+    <script src="script.js"></script> <!-- ย้ายไปที่นี่ -->
+</body>
+</html>

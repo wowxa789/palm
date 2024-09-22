@@ -1,0 +1,283 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: linear-gradient(to bottom, #c0c0c0, #e8e8e8);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #444;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #666;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #333;
+}
+
+.cart-button a {
+  background-color: #aaa;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cart-button a:hover {
+  background-color: #888;
+}
+.contact-us {
+  background: linear-gradient(to bottom, #f7f7f7, #e0e0e0);
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-us p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.info-item {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.info-item h3 {
+  font-size: 20px;
+  color: #444;
+}
+
+.info-item p {
+  font-size: 16px;
+  color: #777;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+label {
+  font-size: 16px;
+  color: #333;
+}
+
+input, textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #aaa;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #888;
+}
+.contact-information {
+  background: linear-gradient(to bottom, #f7f7f7, #e0e0e0);
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 100%; /* Set a max-width for the section */
+  margin: 0 auto; /* Center the section horizontally */
+}
+
+.contact-information h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.info-grid {
+  display: flex; /* Change to flexbox for horizontal layout */
+  justify-content: center; /* Center items horizontally */
+  flex-wrap: wrap; /* Allow wrapping to the next line if necessary */
+  gap: 20px;
+}
+
+.info-item {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex: 1 1 200px; /* Allow items to grow and shrink */
+  min-width: 250px; /* Minimum width for each item */
+  max-width: 300px; /* Maximum width for each item */
+}
+
+.info-item h3 {
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.info-item p {
+  font-size: 16px;
+  color: #777;
+}
+/* Map Section */
+.map-section {
+    background: linear-gradient(to bottom, #f7f7f7, #e0e0e0);
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.map-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Feedback Section */
+.feedback-section {
+    background: linear-gradient(to bottom, #f7f7f7, #e0e0e0);
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Align items in a column */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+}
+
+.feedback-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.feedback-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to multiple rows */
+    gap: 15px;
+    justify-content: center; /* Center feedback items horizontally */
+}
+
+.feedback-item {
+    background: #ffffff;
+    width: 200px; /* Set fixed width */
+    height: 200px; /* Set fixed height */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    padding: 15px;
+    text-align: center; /* Center text */
+}
+
+.feedback-item p {
+    margin: 0; /* Remove margin for the paragraph */
+    font-size: 16px;
+    color: #444;
+}
+
+.feedback-item span {
+    font-size: 14px;
+    color: #777;
+}
+
+
+
+/* Footer */
+.footer {
+    background: linear-gradient(to bottom, #f7f7f7, #e0e0e0);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    margin-bottom: 20px;
+}
+
+.footer-content h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    font-size: 16px;
+    color: #666;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: #d5d5d5;
+    transition: background-color 0.3s;
+}
+
+.social-links a:hover {
+    background: #c0c0c0;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
